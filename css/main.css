@@ -140,14 +140,7 @@ header {
 
 }
 
-.icone-pic {
-  margin-right: 10px;
-  padding-right: 10px;
-  width: 16px;
-  height: 12px;
-  background-size: contain;
-  background-size: no-repeat;
-}
+
 
 .item:not(:last-child) {
   margin-right: 50px;
