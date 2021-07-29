@@ -127,6 +127,7 @@ header {
   text-decoration: none;
   display: block;
   padding: 32px 0;
+  margin-left: 10px;
 }
 
 .current {
@@ -141,7 +142,10 @@ header {
 
 .icone-pic {
   margin-right: 10px;
-  background-size: cover;
+  padding-right: 10px;
+  width: 16px;
+  height: 12px;
+  background-size: contain;
   background-size: no-repeat;
 }
 
