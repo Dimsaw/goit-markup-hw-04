@@ -139,6 +139,10 @@ header {
 
 }
 
+.icone-pic {
+  margin-right: 10px;
+}
+
 .item:not(:last-child) {
   margin-right: 50px;
 }
