@@ -141,6 +141,8 @@ header {
 
 .icone-pic {
   margin-right: 10px;
+  background-size: cover;
+  background-size: no-repeat;
 }
 
 .item:not(:last-child) {
