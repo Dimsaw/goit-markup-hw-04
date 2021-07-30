@@ -373,11 +373,20 @@ background-color: var(--white);
 
 /* our clients */
 
-.clients {
+.section-clients {
   background-color: var(--white));
   list-style: none;
-  padding: 94px 0;
+  padding: 36px 0 152px 0 ;
   max-width: 1600px;
+}
+
+.item-clients {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+margin: 0;
+margin-bottom: 50px;
+  text-align: center;
 }
 
 .clients-list {
@@ -385,15 +394,28 @@ background-color: var(--white);
   text-align: center;
 }
 
+.clients-info {
+
+}
+
 .clients-info:not(:last-child) {
   margin-right: 30px;
 }
 
+
 .clients-icon-box {
   width: 170px;
   height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #AFB1B8 ;
+  border-radius: 4px;
 }
 
+.pic-box {
+  fill: #AFB1B8;
+}
 /*contact inform*/
 
 .footer {
