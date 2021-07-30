@@ -69,6 +69,7 @@ header {
 
 .page-header {
   background-color: var(--white);
+  max-width: 1600px;
 }
 
 .container {
@@ -137,10 +138,8 @@ header {
 .auth-nav {
   display: flex;
   margin-left: auto;
-
+  align-items: stretch;
 }
-
-
 
 .item:not(:last-child) {
   margin-right: 50px;
@@ -153,7 +152,6 @@ header {
 
 .auth-item {
   color: var(--title-text-color);
-  display: inline;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -163,6 +161,18 @@ header {
   display: flex;
   align-items: center;
 }
+
+.icon-pic {
+  margin-right: 10px;
+  background-size: cover;
+  fill: currentColor
+}
+
+.item:hover,
+.item:focus {
+  fill: var(--accent-color)
+}
+
 
 .info {
   margin-left: auto;
@@ -186,18 +196,12 @@ url(../images/Imghero.jpg);
   background-repeat: no-repeat;
   
   background-size: cover;
-  
-  
-
-
 }
 
 .order > .container {
   background-color: transparent;
-  
-
-   
 }
+
 .main-idea {
   max-width: 696px;
   margin: 0 auto 30px;
@@ -242,8 +246,18 @@ url(../images/Imghero.jpg);
 
   .card {
   width: 270px;
+ 
   }
 
+.advantages-icon-box {
+  width: 270px;
+  height: 120px;
+  background-color: var(--additional-background-color);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .advantages-list .card:not(:last-child) {
   margin-right: 30px;
@@ -355,6 +369,29 @@ background-color: var(--white);
   line-height: 1.19;
   text-align: center;
   margin: 0;
+}
+
+/* our clients */
+
+.clients {
+  background-color: var(--white));
+  list-style: none;
+  padding: 94px 0;
+  max-width: 1600px;
+}
+
+.clients-list {
+  display: flex;
+  text-align: center;
+}
+
+.clients-info:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-icon-box {
+  width: 170px;
+  height: 92px;
 }
 
 /*contact inform*/
