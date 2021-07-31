@@ -455,6 +455,12 @@ border-image: 0;
   border-radius: 4px;
 }
 
+.clients-link:hover .pic-box, 
+.clients-link:focus .pic-box {
+  fill: var(--accent-color);
+
+}
+
 .pic-box {
   fill: #AFB1B8;
 }
