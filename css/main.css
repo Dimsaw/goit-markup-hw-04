@@ -58,6 +58,7 @@ img {
   
 }
 
+
 cursor: pointer;
 cursor: auto;
 
@@ -165,7 +166,7 @@ header {
 .icon-pic {
   margin-right: 10px;
   background-size: cover;
-  fill: currentColor
+  fill: currentColor;
 }
 
 .item:hover,
@@ -226,7 +227,7 @@ url(../images/Imghero.jpg);
   font-size: 16px;
   line-height: 1.87;
   padding: 10px 32px;
-  box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px, 4px  rgba(0, 0, 0, 0.25)
   border-radius: 4px;
   text-align: center;
 }
@@ -339,6 +340,7 @@ url(../images/Imghero.jpg);
 
 .card-team {
   margin-right: 30px;
+  background-color: var(--white);
   width: 270px;
   border-radius: 0px 0px 4px 4px; ;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -350,8 +352,8 @@ url(../images/Imghero.jpg);
 }
 
 .team-info {
-padding: 30px 20px;
-background-color: var(--white);
+padding: 30px 20px 0 20px;
+
 }
 
 .team-name {
@@ -369,6 +371,45 @@ background-color: var(--white);
   line-height: 1.19;
   text-align: center;
   margin: 0;
+}
+
+.social-item {
+margin: 16px 32px 30px 32px;
+background-color: var(--white);
+}
+
+.social-item {
+  display: flex;
+  
+  
+}
+
+
+.social-info:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+   width: 44px;
+  height: 44px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+ .social-link:hover ,
+ .social-link:focus {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+ }
+
+.social-link:hover .pic-social,
+.social-link:focus .pic-social {
+  fill: var(--white);
+ }
+
+.pic-social {
+ fill: #AFB1B8; 
 }
 
 /* our clients */
@@ -395,7 +436,7 @@ margin-bottom: 50px;
 }
 
 .clients-info {
-
+border-image: 0;
 }
 
 .clients-info:not(:last-child) {
@@ -409,6 +450,7 @@ margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-image: 0;
   border: 1px solid #AFB1B8 ;
   border-radius: 4px;
 }
