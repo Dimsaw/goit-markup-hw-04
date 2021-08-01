@@ -169,9 +169,6 @@ header {
   fill: currentColor;
 }
 
-.auth-item {
-  padding: 3px 0;
-}
 
 .item:hover,
 .item:focus {
