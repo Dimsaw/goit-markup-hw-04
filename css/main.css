@@ -221,6 +221,7 @@ url(../images/Imghero.jpg);
 .order-btn:hover,
 .order-btn:focus {
   background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .order-btn {
@@ -231,8 +232,7 @@ url(../images/Imghero.jpg);
   font-size: 16px;
   line-height: 1.87;
   padding: 10px 32px;
-  box-shadow: 0px, 4px  rgba(0, 0, 0, 0.25)
-  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
   text-align: center;
 }
 
