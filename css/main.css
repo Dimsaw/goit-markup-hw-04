@@ -21,7 +21,6 @@ body {
   font-style: normal;
   font-weight: 400;
   color: var(--primary-text-color);
-  max-width: 1600px;
   margin: 0 auto;
   background-position: center;
 }
@@ -70,7 +69,7 @@ header {
 
 .page-header {
   background-color: var(--white);
-  max-width: 1600px;
+  
 }
 
 .container {
@@ -195,7 +194,10 @@ url(../images/Imghero.jpg);
   padding: 200px 0;
   height: 600px;
   
+  max-width: 1600px;
+  margin: 0 auto;
   background-repeat: no-repeat;
+  background-color: var(--second-background-color);
   
   background-size: cover;
 }
@@ -353,7 +355,7 @@ url(../images/Imghero.jpg);
 }
 
 .team-info {
-padding: 30px 20px 0 20px;
+padding: 30px 32px 30px 32px;
 
 }
 
@@ -375,9 +377,11 @@ padding: 30px 20px 0 20px;
 }
 
 .social-item {
-margin: 16px 32px 30px 32px;
+margin-top: 16px;
 background-color: var(--white);
 }
+
+.social-info {}
 
 .social-item {
   display: flex;
@@ -418,16 +422,15 @@ background-color: var(--white);
 .section-clients {
   background-color: var(--white));
   list-style: none;
-  padding: 36px 0 152px 0 ;
-  max-width: 1600px;
+  padding: 94px 0;
 }
 
 .item-clients {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-margin: 0;
-margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  margin: 0;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -445,7 +448,7 @@ margin-bottom: 50px;
 }
 
 .clients-link {
-   display: flex;
+  display: flex;  
   align-items: center;
   justify-content: center;
   width: 170px;
@@ -457,7 +460,7 @@ margin-bottom: 50px;
 .clients-link:hover , 
 .clients-link:focus  {
   
-border: 1px solid var(--accent-color) ;
+  border: 1px solid var(--accent-color) ;
 
 }
 
@@ -566,7 +569,7 @@ border: 1px solid var(--accent-color) ;
  }
 
 .pic-join {
- fill: var(--white); 
+  fill: var(--white); 
  }
 
  
@@ -632,9 +635,12 @@ rgba(0, 0, 0, 0.12) , 0px 3px 1px rgba(0, 0, 0, 0.1) ;
   width: 370px;
 } 
 
-.page:hover ,
-.page:focus {
-  /* border: 1px rgba(238, 238, 238, 1); */
+.link-page {
+  display: block;
+}
+
+.link-page:hover ,
+.link-page:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16) , 0px 4px 4px
 rgba(0, 0, 0, 0.06) , 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
